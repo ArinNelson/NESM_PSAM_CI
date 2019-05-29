@@ -1,53 +1,106 @@
-Overall notes:
-  All datasets have monthly timestep.
-  Datasets with data up to "present time" are truncated back to December 2018.
-  Are all datasets based on ICOADS observations?
+Overall notes:  
+
+  All datasets have monthly timestep.  
+  Datasets with data up to "present time" are truncated back to December 2018.  
+  Are all datasets based on ICOADS observations?  
 
 
-Observation-based data: 
-  ERSSTv5
-    Full Name:          Extended Reconstructed Sea Surface Temperature (ERSST) v5
-    Spatial Grid Size:  180x89
-    Spatial Resolution: 2°×2° grid
-    Time Span:          01/1854 - 12/2018
-    Data Source:        ICOADS R3.0
-    Article citation:   Huang, B., Peter W. Thorne, et. al, 2017: Extended Reconstructed Sea Surface Temperature version 5 (ERSSTv5), Upgrades, validations, and intercomparisons. J. Climate, doi: 10.1175/JCLI-D-16-0836.1
-    Dataset citation:   Boyin Huang, Peter W. Thorne, Viva F. Banzon, Tim Boyer, Gennady Chepurin, Jay H. Lawrimore, Matthew J. Menne, Thomas M. Smith, Russell S. Vose, and Huai-Min Zhang (2017): NOAA Extended Reconstructed Sea Surface Temperature (ERSST), Version 5. NOAA National Centers for Environmental Information. doi:10.7289/V5T72FNM 21/04/2019.
-    Additional notes:
-      Link:  https://www.ncdc.noaa.gov/data-access/marineocean-data/extended-reconstructed-sea-surface-temperature-ersst-v5
-      "...data are more reliable after the 1940's."
-      "...damping of the analyzed signal before 1880."
-  HadISST1
-    Full Name:          Hadley Centre Global Sea Ice and Sea Surface Temperature, version 1.1
-    Spatial Grid Size:  360x180
-    Spatial Resolution: 1°×1°
-    Time Span:          01/1871 - 12/2018
-    Data Sources:       Marine Data Bank, ICOADS R?.?, NCEP-GTS
-    Article Citation:   Rayner, N. A.; Parker, D. E.; Horton, E. B.; Folland, C. K.; Alexander, L. V.; Rowell, D. P.; Kent, E. C.; Kaplan, A. (2003) Global analyses of sea surface temperature, sea ice, and night marine air temperature since the late nineteenth century J. Geophys. Res.Vol. 108, No. D14, 4407 10.1029/2002JD002670
-    Dataset Citation:   ??? (check references using this dataset?) ???
-    Additional Notes:
-      Link:  https://www.metoffice.gov.uk/hadobs/hadisst/
-      There are later versions, but they haven't released them to the public.
-      "The source should also be quoted in the acknowledgements section as www.metoffice.gov.uk/hadob"
-  Kaplan SST
-    Full Name:          Kaplan Extrended Sea Surface Temperature, version 2
-    Spatial Grid Size:  72x36
-    Spatial Resolution: 5°×5° 
-    Time Span:          01/1856 - 12/2018
-    Data Sources:       MOHSST5
-    Article Citation:   Kaplan, A., M. Cane, Y. Kushnir, A. Clement, M. Blumenthal, and B. Rajagopalan, Analyses of global sea surface temperature 1856-1991, Journal of Geophysical Research, 103, 18,567-18,589, 1998
-    Dataset Citation:   ??? (check references using this dataset?) ???
-    Additional Notes:
-      Link:  http://iridl.ldeo.columbia.edu/SOURCES/.KAPLAN/.EXTENDED/.v2/.ssta/
-      "Kaplan SST V2 data provided by the NOAA/OAR/ESRL PSD, Boulder, Colorado, USA, from their Web site at https://www.esrl.noaa.gov/psd/"
-    
+
+Observation-based data:  
+
+  ERSSTv5  
+    Full Name:          Extended Reconstructed Sea Surface Temperature (ERSST) v5  
+    Variable(s):        SST  
+    Spatial Grid Size:  180x89  
+    Spatial Resolution: 2°×2°  
+    Time Span:          01/1854 - 12/2018  
+    Article citation:   Huang, B., Peter W. Thorne, et. al, 2017: Extended Reconstructed Sea Surface Temperature version 5 (ERSSTv5), Upgrades, validations, and intercomparisons. J. Climate, doi: 10.1175/JCLI-D-16-0836.1  
+    Dataset citation:   Boyin Huang, Peter W. Thorne, Viva F. Banzon, Tim Boyer, Gennady Chepurin, Jay H. Lawrimore, Matthew J. Menne, Thomas M. Smith, Russell S. Vose, and Huai-Min Zhang (2017): NOAA Extended Reconstructed Sea Surface Temperature (ERSST), Version 5. NOAA National Centers for Environmental Information. doi:10.7289/V5T72FNM 21/04/2019.  
+    Additional notes:  
+      Link:  https://www.ncdc.noaa.gov/data-access/marineocean-data/extended-reconstructed-sea-surface-temperature-ersst-v5  
+      "...data are more reliable after the 1940's."  
+      "...damping of the analyzed signal before 1880."  
+      
+  HadISST1  
+    Full Name:          Hadley Centre Global Sea Ice and Sea Surface Temperature, version 1.1  
+    Variable(s):        SST  
+    Spatial Grid Size:  360x180  
+    Spatial Resolution: 1°×1°  
+    Time Span:          01/1871 - 12/2018  
+    Article Citation:   Rayner, N. A.; Parker, D. E.; Horton, E. B.; Folland, C. K.; Alexander, L. V.; Rowell, D. P.; Kent, E. C.; Kaplan, A. (2003) Global analyses of sea surface temperature, sea ice, and night marine air temperature since the late nineteenth century J. Geophys. Res.Vol. 108, No. D14, 4407 10.1029/2002JD002670.  
+    Dataset Citation:   ??? (check references using this dataset?) ???  
+    Additional Notes:  
+      Link:  https://www.metoffice.gov.uk/hadobs/hadisst/  
+      There are later versions, but they haven't released them to the public.  
+      "The source should also be quoted in the acknowledgements section as www.metoffice.gov.uk/hadobs."  
+      
+  HADSLP2r  
+    Full Name:          Hadley Centre Sea Level Pressure, version 2, with real-time additions  
+    Variable(s):        SLP  
+    Spatial Grid Size:  72x37  
+    Spatial Resolution: 5°×5°  
+    Time Span:          01/1850 - 12/2018  
+    Article Citation:   Allan, R., and T. Ansell, 2006: A New Globally Complete Monthly Historical Gridded Mean Sea Level Pressure Dataset (HadSLP2): 1850-2004. J. Climate, 19, 5816-5842.  
+    Dataset Citation:   ??? (check references using this dataset?) ???  
+    Additional Notes:  
+      Link:  https://www.metoffice.gov.uk/hadobs/hadslp2/  
+      "The source should also be quoted in the acknowledgements section as www.metoffice.gov.uk/hadobs."  
+      
+  Kaplan SST  
+    Full Name:          Kaplan Extrended Sea Surface Temperature, version 2  
+    Variable:           SST  
+    Spatial Grid Size:  72x36  
+    Spatial Resolution: 5°×5°  
+    Time Span:          01/1856 - 12/2018  
+    Article Citation:   Kaplan, A., M. Cane, Y. Kushnir, A. Clement, M. Blumenthal, and B. Rajagopalan, Analyses of global sea surface temperature 1856-1991, Journal of Geophysical Research, 103, 18,567-18,589, 1998.  
+    Dataset Citation:   ??? (check references using this dataset?) ???  
+    Additional Notes:  
+      Link:  http://iridl.ldeo.columbia.edu/SOURCES/.KAPLAN/.EXTENDED/.v2/.ssta/  
+      "Kaplan SST V2 data provided by the NOAA/OAR/ESRL PSD, Boulder, Colorado, USA, from their Web site at https://www.esrl.noaa.gov/psd/"  
+      
+
 
 Reanalyses:  
 
+  20CRv2c  
+    Full Name:          NOAA-CIRES Twentieth Century Reanalysis, version 2c  
+    Variable(s):        SST, SLP  
+    Spatial Grid Size:  180x91  
+    Spatial Resolution: 2°×2°  
+    Time Span:          01/1851 - 12/2014  
+    Article Citation:   Compo, G.P., J.S. Whitaker, P.D. Sardeshmukh, N. Matsui, R.J. Allan, X. Yin, B.E. Gleason, R.S. Vose, G. Rutledge, P. Bessemoulin, S. Brönnimann, M. Brunet, R.I. Crouthamel, A.N. Grant, P.Y. Groisman, P.D. Jones, M. Kruk, A.C. Kruger, G.J. Marshall, M. Maugeri, H.Y. Mok, Ø. Nordli, T.F. Ross, R.M. Trigo, X.L. Wang, S.D. Woodruff, and S.J. Worley, 2011: The Twentieth Century Reanalysis Project. Quarterly J. Roy. Meteorol. Soc., 137, 1-28. http://dx.doi.org/10.1002/qj.776.  
+    Dataset Citation:   ??? (check references using this dataset?) ???  
+    Additional Notes:  
+      Link:  https://www.esrl.noaa.gov/psd/data/20thC_Rean/  
+      Temperatures are actually surface air temperature, not sst  
+      "Support for the Twentieth Century Reanalysis Project dataset is provided by the U.S. Department of Energy, Office of Science Innovative and Novel Computational Impact on Theory and Experiment (DOE INCITE) program, and Office of Biological and Environmental Research (BER), and by the National Oceanic and Atmospheric Administration Climate Program Office."  
+    
+  NNR1  
+    Full Name:          NCEP/NCAR Reanalysis 1  
+    Variable(s):        SST, SLP  
+    Spatial Grid Size:  144x73  
+    Spatial Resolution: 2.5°×2.5°  
+    Time Span:          01/1948 - 12/2018  
+    Article Citation:   Kalnay et al.,The NCEP/NCAR 40-year reanalysis project, Bull. Amer. Meteor. Soc., 77, 437-470, 1996.   
+    Dataset Citation:   ??? (check references using this dataset?) ???  
+    Additional Notes:  
+      Link:  https://www.esrl.noaa.gov/psd/data/gridded/data.ncep.reanalysis.html  
+      "NCEP Reanalysis data provided by the NOAA/OAR/ESRL PSD, Boulder, Colorado, USA, from their Web site at https://www.esrl.noaa.gov/psd/"  
 
 
 
 Global Circulation Models:  
 
-
-
+  CESM LENS  
+    Full Name:          Community Earth System Model - Large Ensemble Project  
+    Variable(s):        SST, SLP  
+    Spatial Grid Size:  320x384 (ocean), 288x192 (atmosphere)  
+    Spatial Resolution: (varies)  
+    Time Span:          01/1850 - 12/2018 (first member only, others start at 01/1920)  
+    Article Citation:   Kay, J. E., Deser, C., Phillips, A., Mai, A., Hannay, C., Strand, G., Arblaster, J., Bates, S., Danabasoglu, G., Edwards, J., Holland, M. Kushner, P., Lamarque, J.-F., Lawrence, D., Lindsay, K., Middleton, A., Munoz, E., Neale, R., Oleson, K., Polvani, L., and M. Vertenstein (2015), The Community Earth System Model (CESM) Large Ensemble Project: A Community Resource for Studying Climate Change in the Presence of Internal Climate Variability, Bulletin of the American Meteorological Society, doi: 10.1175/BAMS-D-13-00255.1, 96, 1333-1349.  
+    Dataset Citation:   ??? (check references using this dataset?) ???  
+    Additional Notes:  
+      Link:  http://www.cesm.ucar.edu/projects/community-projects/LENS/  
+      Currently using 35 ensemble members (neglecting runs performed at Toronto for now)  
+      No data assimilation! 
+      "...please acknowledge the CESM Large Ensemble Community Project and supercomputing resources provided by NSF/CISL/Yellowstone..."
