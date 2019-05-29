@@ -1,0 +1,53 @@
+Overall notes:
+  All datasets have monthly timestep.
+  Datasets with data up to "present time" are truncated back to December 2018.
+  Are all datasets based on ICOADS observations?
+
+
+Observation-based data: 
+  ERSSTv5
+    Full Name:          Extended Reconstructed Sea Surface Temperature (ERSST) v5
+    Spatial Grid Size:  180x89
+    Spatial Resolution: 2°×2° grid
+    Time Span:          01/1854 - 12/2018
+    Data Source:        ICOADS R3.0
+    Article citation:   Huang, B., Peter W. Thorne, et. al, 2017: Extended Reconstructed Sea Surface Temperature version 5 (ERSSTv5), Upgrades, validations, and intercomparisons. J. Climate, doi: 10.1175/JCLI-D-16-0836.1
+    Dataset citation:   Boyin Huang, Peter W. Thorne, Viva F. Banzon, Tim Boyer, Gennady Chepurin, Jay H. Lawrimore, Matthew J. Menne, Thomas M. Smith, Russell S. Vose, and Huai-Min Zhang (2017): NOAA Extended Reconstructed Sea Surface Temperature (ERSST), Version 5. NOAA National Centers for Environmental Information. doi:10.7289/V5T72FNM 21/04/2019.
+    Additional notes:
+      Link:  https://www.ncdc.noaa.gov/data-access/marineocean-data/extended-reconstructed-sea-surface-temperature-ersst-v5
+      "...data are more reliable after the 1940's."
+      "...damping of the analyzed signal before 1880."
+  HadISST1
+    Full Name:          Hadley Centre Global Sea Ice and Sea Surface Temperature, version 1.1
+    Spatial Grid Size:  360x180
+    Spatial Resolution: 1°×1°
+    Time Span:          01/1871 - 12/2018
+    Data Sources:       Marine Data Bank, ICOADS R?.?, NCEP-GTS
+    Article Citation:   Rayner, N. A.; Parker, D. E.; Horton, E. B.; Folland, C. K.; Alexander, L. V.; Rowell, D. P.; Kent, E. C.; Kaplan, A. (2003) Global analyses of sea surface temperature, sea ice, and night marine air temperature since the late nineteenth century J. Geophys. Res.Vol. 108, No. D14, 4407 10.1029/2002JD002670
+    Dataset Citation:   ??? (check references using this dataset?) ???
+    Additional Notes:
+      Link:  https://www.metoffice.gov.uk/hadobs/hadisst/
+      There are later versions, but they haven't released them to the public.
+      "The source should also be quoted in the acknowledgements section as www.metoffice.gov.uk/hadob"
+  Kaplan SST
+    Full Name:          Kaplan Extrended Sea Surface Temperature, version 2
+    Spatial Grid Size:  72x36
+    Spatial Resolution: 5°×5° 
+    Time Span:          01/1856 - 12/2018
+    Data Sources:       MOHSST5
+    Article Citation:   Kaplan, A., M. Cane, Y. Kushnir, A. Clement, M. Blumenthal, and B. Rajagopalan, Analyses of global sea surface temperature 1856-1991, Journal of Geophysical Research, 103, 18,567-18,589, 1998
+    Dataset Citation:   ??? (check references using this dataset?) ???
+    Additional Notes:
+      Link:  http://iridl.ldeo.columbia.edu/SOURCES/.KAPLAN/.EXTENDED/.v2/.ssta/
+      "Kaplan SST V2 data provided by the NOAA/OAR/ESRL PSD, Boulder, Colorado, USA, from their Web site at https://www.esrl.noaa.gov/psd/"
+    
+
+Reanalyses:  
+
+
+
+
+Global Circulation Models:  
+
+
+
