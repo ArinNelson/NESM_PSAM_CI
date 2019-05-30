@@ -1,0 +1,55 @@
+Climate indice definitions and information
+
+
+
+Sea Level Pressure Indices
+  
+  NAO
+  Full Name:            North Atlantic Oscillation
+  Station-based Def'n:  SLP Lisbon (39N, 9W) or Gibraltar (36N, 5W) minus SLP Reykjavic (64N, 22W)
+  PC-based Def'n:       1st PC of SLPA 20N-80N, 90W-40E
+  References:            
+    Hurrell, J.W., 1995: Decadal Trends in the North Atlantic Oscillation: Regional Temperatures and Precipitation. Science: Vol. 269, pp.676-679
+    Jones, P.D., Jónsson, T. and Wheeler, D., 1997: Extension to the North Atlantic Oscillation using early instrumental pressure observations from Gibraltar and South-West Iceland. Int. J. Climatol. 17, 1433-1450. doi: 10.1002/(SICI)1097-0088(19971115)17:13<1433::AID-JOC203>3.0.CO;2-P
+    Hurrell et al. (2003) in The North Atlantic Oscillation: Climate Significance and Environmental Impact, 2003. J.W. Hurrell, Y. Kushnir, G. Ottersen, and M. Visbeck, Eds. Geophysical Monograph Series, 134, 279pp.
+    Hurrell, J. W., and C. Deser, 2009: North Atlantic climate variability: The role of the North Atlantic Oscillation. J. Mar. Syst., 78, No. 1, 28-41
+    
+  SOI
+  Full Name:            Southern Oscillation Index
+  Station-based Def'n:  SLP Tahiti (18S, 149W) or SPH (30S, 95W) minus SLP Darwin (12S, 131E)
+  PC-based Def'n:       [MINE] 1st PC of SLPA 20S-80S, 140W-280W
+  References:
+    Trenberth, K. E., 1984: Signal versus noise in the Southern Oscillation, Mon. Wea. Rev.,. 112, 326-332
+    Ropelewski, C.F., and P.D. Jones, 1987: An Extension of the Tahiti-Darwin Southern Oscillation Index, Monthly Weather Review, 115:2161-2165
+    Konnen et al (1998): Pre-1866 Extensions of the Southern Oscillation Index Using Early Indonesian and Tahitian Meteorological Readings. . J. Climate, 11, 2325–2339.
+    Trenberth, Kevin E., Julie M. Caron, 2000: The Southern Oscillation Revisited: Sea Level Pressures, Surface Temperatures, and Precipitation. J. Climate, 13, 4358–4365.
+  
+  NOI
+  Full Name:            Northern Oscillation Index
+  Station-based Def'n:  SLP NPH (35N, 130W) minus SLP Darwin (12S, 131E)
+  PC-based Def'n:       [MINE] 1st PC of SLPA 20N-80N, 140W-240E
+  References:
+    F.B Schwing, T Murphree, P.M Green. 2002. The Northern Oscillation Index (NOI): a new climate index for the northeast Pacific, Progress in Oceanography, 53 (2-4), 115-139.
+  
+  AO
+  Full Name:            Arctic Oscillation
+  Station-based Def'n:  (none?)
+  PC-based Def'n:       1st PC of SLPA 20N-90N -OR- 2nd PC of global SLPA    
+  References:
+    Higgins, R. W., A. Leetmaa, Y. Xue, and A. Barnston, 2000: Dominant factors influencing the seasonal predictability of U.S. precipitation and surface air temperature. J. Climate, 13, 3994-4017.
+    Higgins, R.W., Y. Zhou and H.-K. Kim, 2001: Relationships between El Niño-Southern Oscillation and the Arctic Oscillation: A Climate-Weather Link. NCEP/Climate Prediction Center ATLAS 8.
+    Zhou, S., A. J. Miller, J. Wang, and J. K. Angell, 2001: Trends of NAO and AO and their associations with stratospheric processes. Geophys. Res. Lett., 28, 4107-4110.
+  
+  AAO
+  Full Name:            Antarctic Oscillation
+  Station-based Def'n:  (none?)
+  PC-based Def'n:       1st PC of SLPA 20S-90S -OR- 1st PC of global SLPA        
+  References:
+    http://research.jisao.washington.edu/data/aao/slp/
+    Mo, K. C., 2000: Relationships between Low-Frequency Variability in the Southern Hemisphere and Sea Surface Temperature Anomalies. J. Climate, 13, 3599-3610.
+    Thompson, D. W. J., and J. M. Wallace, 2000: Annular modes in the extratropical circulation. Part I: Month-to-month variability. J. Climate, 13, 1000-1016.
+    Thompson, D. W. J., and S. Solomon, 2002: Interpretation of Recent Southern Hemisphere Climate Change. Science, 296, 895-899.
+    
+    
+    
+Sea Surface Temperature Indices    
