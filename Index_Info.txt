@@ -53,3 +53,16 @@ Sea Level Pressure Indices
     
     
 Sea Surface Temperature Indices    
+
+  AMO
+  Full Name:         Atlantic Multidecadal Oscillation
+  Averaging Region:  20N-60N, 280E-360E
+  EOF Region:        20N-60N, 280E-360E
+  References:
+
+  
+
+
+
+
+
